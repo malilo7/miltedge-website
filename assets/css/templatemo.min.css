@@ -1,0 +1,47 @@
+/* === VERTICAL SLICK CUSTOM STYLES === */
+
+/* Adjust slick-track to stack vertically */
+.slick-vertical .slick-track {
+    display: block;
+    height: auto !important;
+}
+
+/* Each slide in vertical mode should not float */
+.slick-vertical .slick-slide {
+    display: block;
+    float: none !important;
+    height: auto !important;
+    border: none;
+}
+
+/* Carousel viewport height */
+.slick-vertical .slick-list {
+    height: 450px; /* adjust as needed */
+    overflow-y: auto; /* scroll vertically if needed */
+    overflow-x: hidden;
+}
+
+/* Optional: Vertical dots navigation (displayed on the right) */
+.slick-vertical .slick-dots {
+    position: absolute;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Dot styling remains consistent */
+.slick-vertical .slick-dots li {
+    margin: 5px 0;
+}
+.slick-vertical .slick-dots li button:before {
+    font-size: 10px;
+    opacity: 0.25;
+}
+.slick-vertical .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+}

@@ -1,0 +1,29 @@
+/* Enable vertical stacking of slides */
+.slick-vertical .slick-track {
+    display: block;
+    height: auto !important;
+}
+
+/* Ensure vertical direction for slides */
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto !important;
+    border: none;
+    float: none;
+}
+
+/* Optional: adjust height of slick-list to fit content */
+.slick-vertical .slick-list {
+    height: 400px; /* or auto / your desired height */
+    overflow-y: scroll; /* enable scrolling if needed */
+}
+
+/* Optional: vertical dots layout */
+.slick-dots {
+    top: 50%;
+    left: auto;
+    right: -40px;
+    transform: translateY(-50%);
+    display: flex !important;
+    flex-direction: column;
+}
