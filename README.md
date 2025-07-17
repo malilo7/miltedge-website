@@ -227,22 +227,14 @@ Respect the original license by TemplateMo.
 **GitHub**: [github.com/malilo7](https://github.com/malilo7)  
 **Company**: MILT GROUP TANZANIA COMPANY LTD  
 **Website**: [https://miltedgegroupcompany.co.tz](https://miltedgegroupcompany.co.tz)  
-**Email**: your-email@example.com
+**Email**: malixally@gmail.com
 
 ---
 
 ## 🙏 Acknowledgments
 
 Thanks to:
-
-- [TemplateMo](https://templatemo.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Unsplash](https://unsplash.com/) for placeholder images
-- Everyone contributing to open source 🌍
-
----
-
+BOOMTECH under supervision of owen
 ## 🎯 Final Thoughts
 
 This project is ideal for small businesses looking to launch a professional website quickly without using a CMS or complicated server stack. It's optimized for readability, mobile responsiveness, and customization. Developers can fork it, extend it, or convert it into a dynamic platform if needed.
